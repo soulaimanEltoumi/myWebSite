@@ -7,9 +7,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-white text-xl font-bold">
-              LOGO
-            </Link>
+           
           </div>
           <div className="flex space-x-4">
             <Link
@@ -19,14 +17,14 @@ function Navbar() {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/about-me"
               className="text-white hover:text-gray-300 transition duration-300"
             >
               About
             </Link>
             <Link
               to="/portfolio"
-              className="text-black hover:text-gray-300 transition duration-300"
+              className="text-white hover:text-gray-300 transition duration-300"
             >
               Portfolio
             </Link>

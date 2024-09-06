@@ -3,8 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Navbar from "./components/Navbar";
 import ContactPage from "./pages/Contactpage";
-// import AboutPage from "./pages/AboutPage";
-// import PortfolioPage from "./pages/PortfolioPage";
+import AboutPage from "./pages/aboutMepage";
+import PortfolioPage from "./pages/portfoliopage";
 
 
 export default function App() {
@@ -14,6 +14,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/contact" element={<ContactPage/>} />
+        <Route path="/about-me" element={<AboutPage/>} />
+        <Route path="/portfolio" element={<PortfolioPage/>} /> 
         
       </Routes>
     </>
